@@ -10,7 +10,7 @@ module.exports = {
         'app': './src/main.ts'
     },
     output: {
-        path: path.resolve('dist'),
+        path: path.resolve('../resources/dist'),
         publicPath: '/',
         filename: '[name].[hash].js'
     },
